@@ -15,14 +15,14 @@ interface BlogPageProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Read the latest posts on unfilteredmind.',
+  title: 'Crimelens',
+  description: 'Read the latest posts on Crimelens.',
   alternates: {
     canonical: '/blog',
   },
   openGraph: {
-    title: 'Blog | unfilteredmind',
-    description: 'Read the latest posts on unfilteredmind.',
+    title: 'Blog | Crimelens',
+    description: 'Read the latest posts on Crimelens.',
     url: '/blog',
     type: 'website',
   },
@@ -147,4 +147,5 @@ export default async function Blog({ searchParams }: BlogPageProps) {
     </>
   );
 }
+
 
