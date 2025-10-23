@@ -30,7 +30,7 @@ export const authorData: Author = {
   bio: "Main ek passionate writer aur researcher hoon jo real-life crimes aur unke peeche ke sach ko uncover karna pasand karta hoon. CrimeLens ke through main India ke true crime cases, real movie inspirations, aur unreported kahaniyon ko simple Hinglish me likhta hoon — taaki har reader tak sach bina filter ke pahunche.",
   shortBio: "True crime researcher and writer uncovering India’s real stories in Hinglish.",
   avatar: "https://ui-avatars.com/api/?name=Crime+Lens&background=000000&color=ffffff&size=200&bold=true",
-  website: "https://crimelens.in",
+  website: "https://crimelens.netlify.app/",
   email: "contact@crimelens.in",
   social: {
     twitter: "https://twitter.com",

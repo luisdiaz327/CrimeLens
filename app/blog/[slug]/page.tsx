@@ -67,7 +67,7 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
   }
 
   const author = getAuthorData();
-  const postUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/blog/${post.slug}`;
+  const postUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://crimelens.netlify.app/'}/blog/${post.slug}`;
   const headings = extractHeadings(post.contentHtml);
   const relatedPosts = getRelatedPosts(post.slug, 3);
   const jsonLd = {
@@ -163,4 +163,5 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
     </>
   );
 }
+
 
