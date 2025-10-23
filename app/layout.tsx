@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 const author = getAuthorData();
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://crimelens.netlify.app/'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://crimelens.netlify.app'),
   title: {
     default: author.name,
     template: `%s | ${author.name}`,
